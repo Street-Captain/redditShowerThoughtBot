@@ -83,7 +83,7 @@ Change this to fit your needs. You can leave it as it is and it will work fine. 
 'privacyStatus':'private',
 ```
 
-Lastly, upload backround music to the /content folder, and rename it "song2.wav" (it must be a wave file)
+Lastly, upload backround music to the /content folder, and rename it "song.wav" (it must be a wave file)
 
 # Running
 
