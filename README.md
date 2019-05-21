@@ -34,6 +34,17 @@ You will also need to change the home path variable on line 28
 homePath = "Path/to/directory"
 ```
 
+You will need to replace the font names:
+```
+userFont = ImageFont.truetype('verdana.ttf', size=55)
+    askRedditFont = ImageFont.truetype('verdanab.ttf', size=55)
+    d.text((300, 60), subReddit, font=askRedditFont, fill=(100, 100, 100))
+    d.text((300, 130), user, font=userFont, fill=(100, 100, 100))
+
+    questionFont = ImageFont.truetype('verdanab.ttf', 100)
+```
+With the names of the fonts you put in your font folder
+
 You will need to fill in the reddit api object with your information line 199
 ```
     reddit = praw.Reddit(client_id= "",
